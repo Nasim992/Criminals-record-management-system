@@ -68,7 +68,7 @@ void addrecord::login()
         cout<<"\n\t\tENTER PASSWORD     :  "<<"\t";
         while(i<5)
         {
-            pword[i]=__getch();
+            pword[i]=_getch();
             c=pword[i];
             if(c==13) break;
             else cout<<"*";
@@ -85,7 +85,7 @@ void addrecord::login()
         {
             cout<<".OOPS...Login Unsuccessful"<<endl;
             j++;
-            __getch();
+            _getch();
             system("cls");
         }
     }
@@ -95,7 +95,7 @@ void addrecord::login()
         cout<<"\n\n\t********************************************"<<endl;
         cout<<"\n\t   ! SORRY YOU HAVE ENTERED THE WRONG\n\n\t   USER NAME OR PASSWORD FOR MANY TIMES "<<endl;
         cout<<"\n\n\t********************************************"<<endl;
-        __getch();
+        _getch();
         exit(0);
     }
     system("cls");
@@ -140,7 +140,7 @@ void addrecord::mainmenu()
                 cout<<"\n  \t                                 Developed by Nasim"<<endl;
                 cout<<"\n\t_____________________________________________________\n\n\n"<<endl;
                 logo();
-                __getch();
+                _getch();
                 exit(0);
             default:
                 system("cls");
@@ -148,7 +148,7 @@ void addrecord::mainmenu()
                 system("pause");
                 system("cls");
                 mainmenu();
-                __getch();
+                _getch();
                 break;
             }
 }
@@ -208,7 +208,6 @@ void addrecord::input()
         cin.getline(adate,30);
         cout<<endl;
         cout<<"Release Date:\t";
-        cin.ignore();
         cin.getline(rdate,30);
         cout<<endl;
 }
@@ -241,7 +240,7 @@ void addrecord::searchrecord()
     cout<<"\n\t\t Or ! press any key to go back to the main menu\t:";
 
     char h;
-    h=__getch();
+    h=_getch();
     if(h=='Y' || h=='y')
     {
         searchrecord();
@@ -262,7 +261,7 @@ void addrecord::editrecord()
     cout<<"\t\tDo you want to Edit Again ? Press Y/y";
     cout<<"\n\t\t Or ! press any key to go back to the main menu\t:";
     char m;
-    m=__getch();
+    m=_getch();
     if(m=='Y' || m=='y')
     {
         editrecord();
@@ -292,7 +291,7 @@ void addrecord::deleterecord()
     cout<<"\t\tDo you want to delete another record ? Press Y/y";
     cout<<"\n\t\t Or ! press any key to go back to the main menu\t:";
     char m;
-    m=__getch();
+    m=_getch();
     if(m=='Y' || m=='y')
     {
         deleter();
@@ -374,7 +373,7 @@ void add()
         cout<<"\n\t\trecord added.........."<<endl;
         cout<<"\t\tDo you wants to add another record?  press:y/Y"<<"\n";
         cout<<"\t\tOr,Press any key to go back main menu:\t";
-        k=__getch();
+        k=_getch();
         if(k=='Y' || k=='y')
         {
             add();
