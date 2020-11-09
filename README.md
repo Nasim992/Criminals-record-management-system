@@ -10,8 +10,11 @@ password is 1234
 
 #### Some Samples of this project is given below :
 
-![Front Page](images/front-page.png)
+<!-- ![Front Page](https://github.com/Nasim992/Criminals-record-management-system
+/blob/master/images/front-page.png?raw=true) -->
 
-![2nd Page](images/2nd-page.png)
+![Front Page](images/front-page.PNG)
 
-![3rd Page](images/3rd-page.png)
+![2nd Page](images/2nd-page.PNG)
+
+![3rd Page](images/3rd-page.PNG)
