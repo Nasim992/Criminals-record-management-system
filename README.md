@@ -9,6 +9,9 @@ The UserName is nasim.
 password is 1234
 
 #### Some Samples of this project is given below :
-![Front Page](/images/front-page.png)
-![2nd Page](/images/2nd-page.png)
-![3rd Page](/images/3rd-page.png)
+
+![Front Page](images/front-page.png)
+
+![2nd Page](images/2nd-page.png)
+
+![3rd Page](images/3rd-page.png)
